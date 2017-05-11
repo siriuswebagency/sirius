@@ -1,0 +1,18 @@
+header .uk-navbar {
+  background: url("/themes/sirius/assets/images/space.jpg");
+  background-repeat: round; }
+header .uk-navbar-nav > li > a {
+  color: #fff; }
+
+footer {
+  background: #000; }
+  footer .uk-navbar {
+    background: #000; }
+
+#block-socialsharinglinks a {
+  color: #fff; }
+
+h1 {
+  color: #999; }
+
+/*# sourceMappingURL=style.css.map */

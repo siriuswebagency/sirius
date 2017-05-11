@@ -1,0 +1,16 @@
+global-styling:
+  css:
+    theme:
+      assets/css/style.min.css: {}
+
+uikit-styling:
+  css:
+    theme:
+      bower_components/uikit/dist/css/uikit.min.css: {}
+
+uikit-js:
+  js:
+    bower_components/uikit/dist/js/uikit.min.js: {}
+    bower_components/uikit/dist/js/uikit-icons.min.js: {}
+  dependencies:
+    - core/jquery

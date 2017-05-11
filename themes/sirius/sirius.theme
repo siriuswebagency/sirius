@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Agilisys Connect theme.
+ */
+
+/**
+ * Implements hook_preprocess_block() for block content.
+ *
+ * Disables contextual links for all blocks.
+ */
+function sirius_preprocess_block(&$variables) {
+  if (isset($variables['title_suffix']['contextual_links'])) {
+    unset($variables['title_suffix']['contextual_links']);
+    unset($variables['elements']['#contextual_links']);
+
+    $variables['attributes']['class'] = array_diff($variables['attributes']['class'], ['contextual-region']);
+  }
+}

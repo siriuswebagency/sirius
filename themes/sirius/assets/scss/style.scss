@@ -1,0 +1,12 @@
+// Globals
+@import 'variables';
+@import 'mixins';
+
+// Regions
+@import 'regions/header';
+@import 'regions/footer';
+
+// Blocks
+@import 'blocks/search_block.scss';
+@import 'blocks/social_sharing_links.scss';
+

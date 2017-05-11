@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,iBAAW;EACV,UAAU,ECIQ,6CAAM;EDHrB,iBAAiB,EAAE,KAAK;AAG5B,8BAAoB;EACnB,KAAK,ECLC,IAAI;;ACFZ,MAAO;EACN,UAAU,EDMS,IAAM;ECJzB,iBAAW;IACV,UAAU,EDGQ,IAAM;;AENzB,2BAAE;EACD,KAAK,EFAC,IAAI;;AGUZ,EAAG;EACF,KAAK,EAAE,IAAI",
+"sources": ["../scss/regions/_header.scss","../scss/_variables.scss","../scss/regions/_footer.scss","../scss/blocks/_social_sharing_links.scss","../scss/style.scss"],
+"names": [],
+"file": "style.css"
+}

@@ -1,0 +1,10 @@
+header {
+	.uk-navbar {
+		background:	$header-background !important;
+	    background-repeat: round !important;
+	}
+
+	.uk-navbar-nav>li>a {
+		color: $white;
+	}
+}

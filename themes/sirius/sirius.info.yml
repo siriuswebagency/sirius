@@ -1,0 +1,14 @@
+name: Sirius
+type: theme
+description: 'Sirius theme using UIKit v3'
+core: 8.x
+libraries:
+  - sirius/global-styling
+  - sirius/uikit-styling
+  - sirius/uikit-js
+base theme: false
+regions:
+  off_canvas: 'Off-canvas'
+  header: 'Header'
+  content: Content
+  footer: Footer
